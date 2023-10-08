@@ -1,17 +1,18 @@
-import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router'
-import HomeView from '../views/HomeView.vue'
+import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
+import HomeView from '../views/HomeView.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
     path: '/',
     name: 'home',
-    component: HomeView,
-  },
-]
+    component: HomeView
+  }
+];
 
 const router = createRouter({
   history: createWebHashHistory(),
   routes,
-})
+  linkActiveClass: 'active-link'
+});
 
-export default router
+export default router;
