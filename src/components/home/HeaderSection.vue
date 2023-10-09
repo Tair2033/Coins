@@ -1,7 +1,7 @@
 <template>
   <div class="wrapper">
     <div class="container">
-      <div class="header">
+      <header class="header">
         <div class="header__figures">
           <div class="header__figures-item">
             <img src="../../../public/img/Diamond.png" />
@@ -24,7 +24,7 @@
             </div>
 
             <div class="header__bottom-buttons">
-              <BaseButton text="Get started" />
+              <BaseButton type="default" text="Get started" />
 
               <BaseButton text="Learn more" type="outline" />
             </div>
@@ -46,7 +46,7 @@
             elit.
           </div>
         </div>
-      </div>
+      </header>
     </div>
   </div>
 </template>

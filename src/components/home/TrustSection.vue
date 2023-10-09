@@ -37,12 +37,13 @@ export default defineComponent({
 </script>
 <style lang="scss" scoped>
 .wrapper {
-  position: relative;
   padding-top: 250px;
-  padding-bottom: 100px;
+  padding-bottom: 200px;
 }
 
 .trust {
+  position: relative;
+
   &__main {
     display: flex;
     flex-direction: column;
@@ -90,14 +91,14 @@ export default defineComponent({
 
   &__images-img:nth-child(1) {
     position: absolute;
-    right: -80px;
-    top: 120px;
+    right: -60px;
+    top: -110px;
   }
 
   &__images-img:nth-child(2) {
     position: absolute;
-    left: -80px;
-    bottom: 0px;
+    left: -60px;
+    bottom: -110px;
   }
 }
 </style>
