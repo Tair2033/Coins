@@ -2,6 +2,7 @@ import { createRouter, createWebHashHistory, RouteRecordRaw } from 'vue-router';
 import HomeView from '../views/HomeView.vue';
 import CoinsView from '../views/CoinsView.vue';
 import CoinView from '../views/CoinView.vue';
+import NewsView from '../views/NewsView.vue';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -22,7 +23,7 @@ const routes: Array<RouteRecordRaw> = [
   {
     path: '/news',
     name: 'news',
-    component: CoinsView
+    component: NewsView
   }
 ];
 

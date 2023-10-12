@@ -7,6 +7,9 @@ export default createStore({
     },
     coinPage: {
       isLoading: false
+    },
+    newsPage: {
+      isLoading: false
     }
   },
   getters: {
@@ -15,6 +18,9 @@ export default createStore({
     },
     getCoinLoadingStatus(state) {
       return state.coinPage.isLoading;
+    },
+    getNewsLoadingStatus(state) {
+      return state.newsPage.isLoading;
     }
   },
   mutations: {
@@ -23,6 +29,9 @@ export default createStore({
     },
     changeCoinLoadingStatus(state) {
       state.coinPage.isLoading = true;
+    },
+    changeNewsLoadingStatus(state) {
+      state.newsPage.isLoading = true;
     }
   },
   actions: {},
