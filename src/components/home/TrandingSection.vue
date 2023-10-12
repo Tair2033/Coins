@@ -8,7 +8,7 @@
               Decentralized - 01
             </div>
             <div class="tranding__left-title">
-              Trading <br />
+              Trading <br>
               Made Easy.
             </div>
             <div class="tranding__left-paragraph">
@@ -19,16 +19,22 @@
               consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
             </div>
             <div class="tranding__left-btn">
-              <BaseButton :config="{
-                backColor: 'black',
-                color: 'white'
-              }" text="Get Started" />
+              <BaseButton
+                :config="{
+                  backColor: 'black',
+                  color: 'white'
+                }"
+                text="Get Started"
+              />
             </div>
           </div>
 
           <div class="tranding__right">
             <div class="tranding__right-img">
-              <img src="../../../public/img/easy.png" alt="">
+              <img
+                src="../../../public/img/easy.png"
+                alt=""
+              >
             </div>
           </div>
         </div>

@@ -3,12 +3,21 @@
     <div class="container">
       <footer class="footer">
         <div class="footer__lists">
-          <div v-for="(list, id) in lists" :key="id" class="footer__list">
+          <div
+            v-for="(list, id) in lists"
+            :key="id"
+            class="footer__list"
+          >
             <div class="footer__list-title">
               {{ list.title }}
             </div>
 
-            <router-link v-for="(item, index) in list.items" :key="index" :to="item.link" class="footer__list-name">
+            <router-link
+              v-for="(item, index) in list.items"
+              :key="index"
+              :to="item.link"
+              class="footer__list-name"
+            >
               {{ item.name }}
             </router-link>
           </div>

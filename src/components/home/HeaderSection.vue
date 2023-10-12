@@ -4,40 +4,56 @@
       <header class="header">
         <div class="header__figures">
           <div class="header__figures-item">
-            <img src="../../../public/img/Diamond.png" />
+            <img src="../../../public/img/Diamond.png">
           </div>
           <div class="header__figures-item">
-            <img src="../../../public/img/shape1.png" />
+            <img src="../../../public/img/shape1.png">
           </div>
           <div class="header__figures-item">
-            <img src="../../../public/img/shape1.png" />
+            <img src="../../../public/img/shape1.png">
           </div>
         </div>
 
         <div class="header__start">
-          <div class="header__slogan">We made it easy.</div>
+          <div class="header__slogan">
+            We made it easy.
+          </div>
 
           <div class="header__bottom">
             <div class="header__bottom-title">
-              Trade <br />
+              Trade <br>
               Crypto.
             </div>
 
             <div class="header__bottom-buttons">
-              <BaseButton type="default" text="Get started" />
+              <BaseButton
+                type="default"
+                text="Get started"
+              />
 
-              <BaseButton text="Learn more" type="outline" />
+              <BaseButton
+                text="Learn more"
+                type="outline"
+              />
             </div>
           </div>
         </div>
         <div class="header__center">
-          <img src="../../../public/img/header1.png" alt="" />
+          <img
+            src="../../../public/img/header1.png"
+            alt=""
+          >
         </div>
         <div class="header__end">
           <div class="header__end-image">
-            <img src="../../../public/img/header2.png" alt="" />
+            <img
+              src="../../../public/img/header2.png"
+              alt=""
+            >
           </div>
-          <div class="header__end-lable">Decentralized - 01</div>
+          <div class="header__end-lable">
+            Decentralized - 01
+          </div>
           <div class="header__end-paragraph">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolore quas
             tenetur nobis? Omnis incidunt voluptates perferendis ea laboriosam

@@ -12,7 +12,11 @@
             </div>
           </div>
           <div class="why__center">
-            <div v-for="item in 3" :key="item" class="why__center-item">
+            <div
+              v-for="item in 3"
+              :key="item"
+              class="why__center-item"
+            >
               <div class="item__title">
                 BENEFIT 0{{ item }}
               </div>
@@ -27,19 +31,34 @@
 
         <div class="why__images">
           <div class="why__images-img">
-            <img src="../../../public/img/Diamond2.png" alt="">
+            <img
+              src="../../../public/img/Diamond2.png"
+              alt=""
+            >
           </div>
           <div class="why__images-img">
-            <img src="../../../public/img/Diamond2.png" alt="">
+            <img
+              src="../../../public/img/Diamond2.png"
+              alt=""
+            >
           </div>
           <div class="why__images-img">
-            <img src="../../../public/img/Shape2.png" alt="">
+            <img
+              src="../../../public/img/Shape2.png"
+              alt=""
+            >
           </div>
           <div class="why__images-img">
-            <img src="../../../public/img/Shape2.png" alt="">
+            <img
+              src="../../../public/img/Shape2.png"
+              alt=""
+            >
           </div>
           <div class="why__images-img">
-            <img src="../../../public/img/Shape2.png" alt="">
+            <img
+              src="../../../public/img/Shape2.png"
+              alt=""
+            >
           </div>
         </div>
       </div>

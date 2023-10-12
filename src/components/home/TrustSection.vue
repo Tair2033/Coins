@@ -3,8 +3,12 @@
     <div class="container">
       <div class="trust">
         <div class="trust__main">
-          <div class="trust__main-slogan">WHAT WE STAND FOR</div>
-          <div class="trust__main-title">Trusted and <br />Transparent.</div>
+          <div class="trust__main-slogan">
+            WHAT WE STAND FOR
+          </div>
+          <div class="trust__main-title">
+            Trusted and <br>Transparent.
+          </div>
           <div class="trust__main-paragraph">
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -18,10 +22,10 @@
 
         <div class="trust__images">
           <div class="trust__images-img">
-            <img src="../../../public/img/header3.png" />
+            <img src="../../../public/img/header3.png">
           </div>
           <div class="trust__images-img">
-            <img src="../../../public/img/header4.png" />
+            <img src="../../../public/img/header4.png">
           </div>
         </div>
       </div>

@@ -5,13 +5,16 @@
         <div class="market__main">
           <div class="market__left">
             <div class="market__left-img">
-              <img src="../../../public/img/caps.png" alt="">
+              <img
+                src="../../../public/img/caps.png"
+                alt=""
+              >
             </div>
           </div>
 
           <div class="market__right">
             <div class="market__right-title">
-              All About <br />
+              All About <br>
               Market Caps
             </div>
             <div class="market__right-paragraph">
@@ -20,22 +23,34 @@
               ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.
             </div>
             <div class="market__right-btn">
-              <BaseButton type="outline" text="Learn More" />
+              <BaseButton
+                type="outline"
+                text="Learn More"
+              />
             </div>
           </div>
         </div>
 
         <div class="market__images">
           <div class="market__images-img">
-            <img src="../../../public/img/shape1.png" alt="">
+            <img
+              src="../../../public/img/shape1.png"
+              alt=""
+            >
           </div>
 
           <div class="market__images-img">
-            <img src="../../../public/img/shape1.png" alt="">
+            <img
+              src="../../../public/img/shape1.png"
+              alt=""
+            >
           </div>
 
           <div class="market__images-img">
-            <img src="../../../public/img/shape1.png" alt="">
+            <img
+              src="../../../public/img/shape1.png"
+              alt=""
+            >
           </div>
         </div>
       </div>
