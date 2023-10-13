@@ -2,6 +2,9 @@ import { createStore } from 'vuex';
 
 export default createStore({
   state: {
+    navbar: {
+      searchInput: false
+    },
     coinsPage: {
       isLoading: false
     },
@@ -13,6 +16,9 @@ export default createStore({
     }
   },
   getters: {
+    getSerchInputStatus(state) {
+      return state.navbar.searchInput;
+    },
     getCoinsLoadingStatus(state) {
       return state.coinsPage.isLoading;
     },
@@ -32,6 +38,14 @@ export default createStore({
     },
     changeNewsLoadingStatus(state) {
       state.newsPage.isLoading = true;
+    },
+    offAll(state) {
+      state.coinsPage.isLoading = false;
+      state.coinPage.isLoading = false;
+      state.newsPage.isLoading = false;
+    },
+    toggleSearchInputStatus(state) {
+      state.navbar.searchInput = !state.navbar.searchInput;
     }
   },
   actions: {},

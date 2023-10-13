@@ -52,4 +52,10 @@ body {
   opacity: 0;
   transform: translateX(-100%);
 }
+
+
+.navbar__items-item a.active-link {
+  background-color: white;
+  color: black;
+}
 </style>

@@ -106,12 +106,15 @@ export default defineComponent({
   }
 
   &__center {
+    justify-content: center;
     margin-top: 160px;
     display: flex;
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
 
-  &__center-item {}
+  &__center-item {
+    margin: 10px;
+  }
 
   &__images {
     z-index: 1;

@@ -24,7 +24,7 @@
         </div>
 
         <div class="footer__copyright">
-          Copyright 2021 Coinmyte Inc. All Rights Reserved.
+          Copyright {{ new Date().getFullYear() }} Coins Inc. All Rights Reserved.
         </div>
       </footer>
     </div>

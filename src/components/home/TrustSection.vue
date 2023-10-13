@@ -85,6 +85,7 @@ export default defineComponent({
   }
 
   &__images {
+    opacity: 0.4;
     position: absolute;
     top: 0;
     bottom: 0;

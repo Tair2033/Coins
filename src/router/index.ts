@@ -3,6 +3,7 @@ import HomeView from '../views/HomeView.vue';
 import CoinsView from '../views/CoinsView.vue';
 import CoinView from '../views/CoinView.vue';
 import NewsView from '../views/NewsView.vue';
+import store from '@/store';
 
 const routes: Array<RouteRecordRaw> = [
   {
@@ -31,6 +32,14 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes,
   linkActiveClass: 'active-link'
+});
+
+router.beforeEach(() => {
+  window.scrollTo({
+    top: 0
+  });
+
+  store.commit('offAll');
 });
 
 export default router;

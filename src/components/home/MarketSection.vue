@@ -106,6 +106,7 @@ export default defineComponent({
     align-items: center;
     z-index: 5;
     padding: 0 10px;
+    margin-top: 100px;
   }
 
   &__right-title {
