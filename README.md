@@ -1,24 +1,9 @@
-# coins
+# Coins
 
-## Project setup
-```
-npm install
-```
+> ### Сайт - про крипту, актуальные цены, валатильность, обмен*
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+## Preview
 
-### Compiles and minifies for production
-```
-npm run build
-```
 
-### Lints and fixes files
-```
-npm run lint
-```
+https://github.com/Tair2033/Coins/assets/63341187/1bb92a8f-137b-409e-84ec-057775beb196
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
